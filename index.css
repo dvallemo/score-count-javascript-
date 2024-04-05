@@ -1,0 +1,73 @@
+
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Technology-Bold;
+    src: url('./font/Technology-Bold.ttf');
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* figma */
+    width: 575px;
+    height: 385px;
+    top: -1135px;
+    left: -1996px;
+    gap: 0px;
+    opacity: 0px;
+    
+    background: #1B244A;
+    color: white;
+
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.score {
+    border: 1px solid black;
+    /* from figma */
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    
+    background: black;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: red;
+    font-family: Technology-Bold, sans-serif;
+    font-size: 50px;
+}
+
+.controls {
+   
+    
+    margin-top: 20px;
+    text-align: center; 
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    width: 40px;
+    height: 30;
+    background: #1B244A;
+    border: 1px solid #9AABD8; 
+    color: #9AABD8;
+    font-family: Technology-Bold, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
